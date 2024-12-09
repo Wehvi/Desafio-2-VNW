@@ -1,0 +1,386 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    // border: solid red;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 15vh;
+    font-family: "oswald";
+
+    h2 {
+        font-size: 2.5em;
+        font-weight: 700;
+    }
+
+    nav {
+        //border: solid blue;
+        width: 40%;
+    }
+
+    ul {
+        display: flex;
+        justify-content: space-evenly;
+        list-style: none;
+
+    }
+
+    a {
+        text-decoration: none;
+        font-size: 1.25em;
+        font-weight: 500;
+        color: #585858;
+    }
+
+    button {
+        // border: solid green;
+        border: solid black;
+        width: 10%;
+        height: 5vh;
+        font-size: 1.5em;
+        font-weight: 500;
+
+    }
+
+}
+
+
+.banner {
+    // border: solid green;
+    height: 60vh;
+    background-image: url(imagens/background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-content: space-evenly;
+    align-items: center;
+
+    h1 {
+        // border: solid blueviolet;
+        color: white;
+        font-family: "oswald";
+        font-size: 6rem;
+        font-weight: 700;
+    }
+
+    p {
+        // border: solid pink;
+        color: white;
+        font-family: "oswald";
+        font-size: 2rem;
+        font-weight: 300;
+    }
+
+    button {
+        // border: solid purple;
+        background-color: #0016DF;
+        border-style: none;
+        color: white;
+        width: 15%;
+        height: 5vh;
+        font-family: "oswald";
+        font-size: 1.5rem;
+        font-weight: 700;
+
+    }
+}
+
+.gestaoportuaria {
+    ///border: solid red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-evenly;
+
+    div {
+        //border: solid green;
+        width: 30%;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+
+
+    }
+
+    .gestaointegrada {
+        // border: solid orangered;
+        color: #0017E9;
+        font-size: 1.5rem;
+        font-weight: 500;
+        font-family: "oswald";
+    }
+
+    h3 {
+        // border: solid tomato;
+        font-size: 2.25rem;
+        font-weight: 800;
+        font-family: "roboto";
+
+    }
+
+    .sistemagestao {
+        //border: solid greenyellow;
+        font-size: 1.5rem;
+        font-weight: 400;
+        font-family: "roboto";
+    }
+
+    a {
+        // border: solid black;
+        text-decoration: none;
+        color: #0017E9;
+        font-size: 1.5rem;
+        font-weight: 400;
+        font-family: "roboto";
+    }
+
+    img {
+        // border: solid green;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 44vw;
+        height: 84vh;
+
+    }
+}
+
+.solucao {
+    // border: solid black;
+    background-color: #D8D8D8;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+
+    h2 {
+        color: #0017E9;
+        font-size: 1.5rem;
+        font-weight: 500;
+        font-family: "oswald";
+        display: flex;
+        justify-content: center;
+    }
+
+    h3 {
+        font-size: 1.5rem;
+        font-weight: 500;
+        font-family: "oswald";
+        display: flex;
+        justify-content: center;
+    }
+
+    p {
+        font-family: "oswald";
+        font-size: 1.5rem;
+        font-weight: 200;
+    }
+
+    div {
+        // border: solid yellow;
+        height: 50vh;
+        display: flex;
+        justify-content: space-evenly;
+
+
+    }
+
+    .porto {
+        //border: solid purple;
+        background-color: white;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        width: 25%;
+    }
+
+    .naviosmar {
+        //border: solid purple;
+        background-color: white;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        width: 25%;
+    }
+
+    .monitoramento {
+        ///border: solid purple;
+        background-color: white;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        width: 25%;
+    }
+}
+
+.formulario {
+    // border: solid red;
+    display: flex;
+    height: 80vh;
+    justify-content: space-evenly;
+
+
+    .atendimento {
+        //border: solid green;
+        width: 60%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+
+        h2 {
+            color: #0017E9;
+            font-size: 2rem;
+            font-weight: 500;
+            font-family: "oswald";
+        }
+
+        h3 {
+            font-size: 1.5rem;
+            font-weight: 500;
+            font-family: "oswald";
+        }
+
+        .imglegenda {
+            display: flex;
+            font-size: 1.25rem;
+            font-weight: 500;
+            font-family: "oswald";
+
+        }
+
+        .conjunto1 {
+            // border: solid orange;
+            width: 40%;
+
+        }
+
+        .conjunto2 {
+            //border: solid tomato;
+            width: 40%;
+        }
+    }
+
+    .formu {
+        //border: solid blue;
+        width: 30%;
+        font-size: 1.25rem;
+        font-weight: 300;
+        font-family: "oswald";
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+
+        h2 {
+            color: #0017E9;
+            font-size: 2rem;
+            font-weight: 500;
+            font-family: "oswald";
+        }
+
+        h3 {
+            font-size: 1.5rem;
+            font-weight: 500;
+            font-family: "oswald";
+        }
+
+        form {
+            // border: solid maroon;
+            height: 100vh;
+            font-size: 1.25rem;
+            font-weight: 300;
+            font-family: "oswald";
+            display: flex;
+            flex-direction: column;
+            justify-content: space-evenly;
+            width: 80%;
+
+        }
+
+        .nome {
+            font-size: 1.25rem;
+            font-weight: 300;
+            font-family: "oswald";
+            display: flex;
+            flex-direction: column;
+            width: 80%;
+
+            input {
+                height: 5vh;
+            }
+        }
+
+        .email {
+            font-size: 1.25rem;
+            font-weight: 300;
+            font-family: "oswald";
+            display: flex;
+            flex-direction: column;
+            width: 80%;
+
+            input {
+                height: 5vh;
+            }
+        }
+
+        .telefone {
+            font-size: 1.25rem;
+            font-weight: 300;
+            font-family: "oswald";
+            display: flex;
+            flex-direction: column;
+            width: 80%;
+
+            input {
+                height: 5vh;
+            }
+        }
+
+        .mensagem {
+            font-size: 1.25rem;
+            font-weight: 300;
+            font-family: "oswald";
+            display: flex;
+            flex-direction: column;
+            width: 80%;
+        }
+
+        button {
+            background-color: #0017E9;
+            border-style: none;
+            color: white;
+            font-size: 1.5rem;
+            font-weight: 400;
+            font-family: "oswald";
+            width: 80%;
+            height: 5vh;
+
+        }
+
+    }
+}
+
+footer {
+    background-color: #D8D8D8;
+    height: 5vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    p {
+        font-family: "oswald";
+        font-size: 0.875rem;
+        font-weight: 700;
+        color: #001C43;
+        text-align: center;
+
+    }
+}
